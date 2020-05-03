@@ -13,6 +13,16 @@ Measurement Units	Formula and Calculation
 Kilograms and meters (or centimeters)	
 Formula: weight (kg) / [height (m)]2
 
+
+My Formula Declaration in Xcode: (BCCalculation.swift)
+
+func calculateBMI(height: Float, weight: Float) {
+        
+        BMIvalue = weight / pow(height, 2)    
+}
+
+
+
 The formula for BMI is weight in kilograms divided by height in meters squared. If height has been measured in centimeters, divide by 100 to convert this to meters.
 
 Pounds and inches	
